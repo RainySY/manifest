@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="lineage"
-          fetch="https://github.com/LineageOS"
+          fetch="https://github.com.cnpmjs.org/LineageOS"
           revision="lineage-18.0" />
 
   <!-- CodeAurora additions -->
