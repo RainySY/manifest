@@ -44,15 +44,11 @@
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
@@ -69,12 +65,18 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -100,17 +102,16 @@
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
@@ -119,6 +120,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
@@ -152,6 +154,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
@@ -172,6 +175,7 @@
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
